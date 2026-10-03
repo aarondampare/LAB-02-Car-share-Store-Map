@@ -1,4 +1,4 @@
-# LAB-02-Car-share-Store-Map
+# LAB-02-Car-share-Store-Map and Walking Skeleton MVP
 #
 
 ## 1. 2D Story Map
