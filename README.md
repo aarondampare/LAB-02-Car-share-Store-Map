@@ -1,22 +1,22 @@
-# LAB-02-Car-share-Store-Map and Walking Skeleton MVP
+# LAB 02 — Car-Share Story Map and Walking Skeleton MVP
 ```mermaid
 flowchart TB
 
-    subgraph JOURNEY["USER JOURNEY"]
+    subgraph STORY["2D STORY MAP — USER JOURNEY"]
         direction LR
 
-        A["ACCOUNT<br/><br/>Register<br/>Login<br/>Verify Identity"]
-        B["FIND A CAR<br/><br/>Search Cars<br/>View Details<br/>Filter Cars"]
-        C["BOOK CAR<br/><br/>Select Car<br/>Select Date/Time<br/>Confirm Booking"]
-        D["PICK UP<br/><br/>View Location<br/>Unlock Car<br/>Start Rental"]
-        E["USE CAR<br/><br/>Start Trip<br/>View Trip<br/>Track Trip"]
-        F["RETURN<br/><br/>End Trip<br/>Lock Car<br/>Confirm Return"]
-        G["PAYMENT<br/><br/>Calculate Cost<br/>Make Payment<br/>View Receipt"]
+        A["ACCOUNT<br/>Register<br/>Login<br/>Verify"]
+        B["FIND CAR<br/>Search<br/>View Details<br/>Filter"]
+        C["BOOK CAR<br/>Select Car<br/>Date/Time<br/>Confirm"]
+        D["PICK UP<br/>Location<br/>Unlock<br/>Start"]
+        E["USE CAR<br/>Start Trip<br/>View Trip<br/>Track"]
+        F["RETURN<br/>End Trip<br/>Lock Car<br/>Confirm"]
+        G["PAYMENT<br/>Calculate Cost<br/>Make Payment<br/>Receipt"]
 
         A --> B --> C --> D --> E --> F --> G
     end
 
-    subgraph MVP["WALKING SKELETON — MVP"]
+    subgraph MVP["WALKING SKELETON MVP"]
         direction LR
 
         M1["Register / Login"]
@@ -24,10 +24,11 @@ flowchart TB
         M3["Book Car"]
         M4["Pick Up"]
         M5["Use Car"]
-        M6["Return Car"]
-        M7["Make Payment"]
+        M6["Return"]
+        M7["Payment"]
 
         M1 --> M2 --> M3 --> M4 --> M5 --> M6 --> M7
     end
-```
 
+    STORY --> MVP
+```
